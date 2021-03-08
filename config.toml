@@ -1,0 +1,104 @@
+baseURL = "https://1.wolfman.dev"
+languageCode = "en-ca"
+title = "One"
+theme = "hugo-elate-theme"
+
+[params]
+
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  email = "f/xbjpnjlo" # Used by formspree
+
+  # Navigation
+  [params.navigation]
+    brand = "One"
+    home = "Home"
+    services = "One"
+    about = "About"
+    contact = "Contact"
+
+  # Hero section
+  [params.hero]
+    title = "Buy the number one"
+    subtitle = "A one of a kind number. By definition."
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "One"
+    description = "The year is 2021 and numbers are for sale on the internet. Large prime number like 131,071 seem appealing, but connaisseurs of our modern hellworld place the highest value on artificial scarcity, and therefore the most unique number of them all: **1**\n\nBuy it now from this website."
+
+    [[params.services.item]]
+      title = "Unique Number"
+      description = "There is only one number one, which is why it's called one. Own the scarcest non-zero integer. If it were any scarcer, it would be imaginary."
+      icon = "icon-diamond"
+
+    [[params.services.item]]
+      title = "Environmentally Friendly"
+      description = "Unlike non-fungible tokens, this website is all that's needed for the proof of sale, negating the need for expensive GPUs and the thousands of kilowatt-hours used to generate NFTs."
+      icon = "icon-energy"
+
+    [[params.services.item]]
+      title = "Simple Proof of Work"
+      description = "No nightmare math required. Anyone who can count to one will be able to instantly verify that, yep, that's a number all right."
+      icon = "icon-calculator"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = "NFTs are environmental [bombs](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3). Bitcoin is a [disaster](https://www.metzdowd.com/pipermail/cryptography/2020-December/036510.html). If you're going to throw enormous amounts of money at numbers, then I propose you throw it at me and I promise I won't use a warehouse full of GPUs yelling prime numbers at each other to make the transaction happen."
+
+    [[params.about.item]]
+      name = "Byron Wolfman"
+      position = "Spooky Cloud Stuff"
+      description = "I wrangle cloud stuff by day, solving problems created by last year's solution and laying the foundation for next year's problems."
+      img = "byron-cartoon.gif"
+      alt = "Cartoon Byron Wolfman"
+      social = [
+        ["icon-twitter", "https://twitter.com/byronwolfman"],
+        ["icon-github", "https://github.com/byronwolfman"],
+        ["icon-globe", "https://wolfman.dev"]
+      ]
+
+    [[params.about.item]]
+      name = "One"
+      position = "Integer"
+      description = "The one and only, the first, and last singular integer. Scarce AF."
+      img = "one.png"
+      alt = "The Number One"
+      social = [
+        ["icon-grid", "https://www.wolframalpha.com/input/?i=1"],
+        ["icon-clock", "https://www.google.com/search?q=timer+1+second"],
+        ["icon-camera", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"],
+        ["icon-globe", "https://en.wikipedia.org/wiki/1"]
+      ]
+
+  # Contact section
+  [params.contact]
+    enable = true
+    form = true
+    title = "Place a bid"
+    description = "Get in touch if you'd like to place a bid on a number. Everyone else is doing it."
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Toronto, Canada"],
+        ["icon-envelope", "one@1.wolfman.dev"],
+        ["icon-globe", "[1.wolfman.dev](https://1.wolfman.dev)"]
+      ]
+
+    name = "Name"
+    email = "Email"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "&copy; Byron Wolfman. All Rights Reserved. Created using [Hugo](https://gohugo.io/) and [Elate](https://github.com/saey55/hugo-elate-theme)."
+    links = [
+        ["icon-twitter", "https://twitter.com/byronwolfman"],
+        ["icon-github", "https://github.com/byronwolfman"],
+        ["icon-globe", "https://wolfman.dev"]
+      ]

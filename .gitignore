@@ -1,0 +1,6 @@
+public/*
+resources/_gen/*
+!public/_redirects
+
+.DS_Store
+*.swp
